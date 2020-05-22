@@ -1,2 +1,2 @@
 
-export DATABASE_URL='postgresql://postgres:postgres@localhost:5433/moviesdb'
+export DATABASE_URL='postgresql://postgres:postgres@localhost:5433/moviesdb?sslmode=require'
