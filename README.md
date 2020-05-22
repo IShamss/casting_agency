@@ -90,3 +90,7 @@ client_id=MYfcBWBL1mTkNxjjqWWoR4mmTfesYJVk
 ## Deployed link
 
 https://icasting-agency.herokuapp.com/
+
+## To install dependencies
+
+pip3 install requirements.txt
