@@ -10,7 +10,7 @@ database_path = "postgres://{}/{}".format('localhost:5433', database_name)
 db = SQLAlchemy()
 
 def setup_db(app, database_path=database_path):
-    app.config["SQLALCHEMY_DATABASE_URI"] = 'postgresql://postgres:postgres@localhost:5433/moviesdb'
+    app.config["SQLALCHEMY_DATABASE_URI"] = 'postgresql://postgres:postgres@localhost:5433/moviesdb?sslmode=require'
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     db.app = app
     #migrate = Migrate(app,db)
