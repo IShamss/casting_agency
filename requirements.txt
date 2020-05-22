@@ -17,7 +17,6 @@ configobj==5.0.6
 constantly==15.1.0
 cryptography==2.1.4
 distlib==0.3.0
-distro-info==0.18
 docutils==0.14
 ecdsa==0.13.2
 filelock==3.0.12
